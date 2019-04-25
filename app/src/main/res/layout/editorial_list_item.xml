@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants"
+    android:background="#fffde7"
+
+    >
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+
+        >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+
+            android:text="Exclusive: Minds CEO Challenges Twitter’s Jack Dorsey to Walk the Walk on Bitcoin"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/abril_fatface" />
+
+        <ImageButton
+            android:id="@+id/imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ic_more"
+            />
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="Minds.com CEO Bill Ottman recently appeared on the Joe Rogan Experience, where he talked about the importance of open source and decentralization. While these are subjects near and dear to his heart, they are more a vehicle for his true passion"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        app:fontFamily="@font/abril_fatface"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/author_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="12sp"
+            tools:text="P. H. Madore"
+            android:layout_margin="10dp"
+            app:fontFamily="@font/abril_fatface"
+            />
+
+        <TextView
+            android:id="@+id/date_published"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="12sp"
+            tools:text="12-01-2019"
+            android:layout_margin="12dp"
+            android:layout_alignParentRight="true"
+            app:fontFamily="@font/abril_fatface"/>
+    </RelativeLayout>
+
+    </LinearLayout>
